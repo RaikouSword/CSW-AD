@@ -1,0 +1,1 @@
+We don't know why we are studying THIS but we know one thing , WE are here to FUCK our future :)
