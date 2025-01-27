@@ -1,0 +1,6 @@
+package oops1;
+interface Vehicle1{
+	void changeGear(int a);
+	void speedUp(int a);
+	void applyBrakes(int a);
+}
