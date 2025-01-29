@@ -1,2 +1,26 @@
-# We don't know why we are studying THIS but we know one thing , WE are here to F**K our future :)
-*by ସୌରା*
+// Abstract class
+abstract class Animal {
+    // Abstract method (does not have a body)
+    abstract void sound();
+
+    // Regular method
+    void sleep() {
+        System.out.println("This animal is sleeping.");
+    }
+}
+
+// Subclass (inherited from Animal)
+class Dog extends Animal {
+    // Implementing the abstract method
+    void sound() {
+        System.out.println("Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.sound();  // Calls Dog's implementation of sound()
+        dog.sleep();  // Calls the inherited sleep() method
+    }
+}

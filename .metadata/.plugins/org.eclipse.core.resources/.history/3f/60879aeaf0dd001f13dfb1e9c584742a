@@ -1,0 +1,27 @@
+package abstraction;
+
+public class CurrentAccount extends BankAccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public CurrentAccount(String accountholder, double balance) {
+			super(accountNumber,balance);
+		}
+		@Override
+		public void deposit(double amount) {
+			setBalance(getBalance()+amount);
+			System.out.println("Deposit of $:"+amount+" successful. \nCurrent balance is: $"+getBalance());
+		}
+		@Override
+		public void withdraw(double amount) {
+			if(getBalance() >= amount) {
+				setBalance(getBalance() - amount);
+				System.out.println("Withdrawl of $"+amount+" successful. \nCurrent balance is: $"+getBalance());
+			}
+			else {
+				System.out.println("Insufficient funds. Withdrawl failed.");
+			}
+		}
+	}
+
+}
