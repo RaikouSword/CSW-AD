@@ -1,0 +1,20 @@
+package assignment1;
+class Laptop {
+	String model;
+	int price;
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+}
+public class Mainq4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
