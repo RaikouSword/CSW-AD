@@ -1,4 +1,4 @@
-package assignment1;
+package sample_questions;
 class Laptop {
 	String model;
 	int price;

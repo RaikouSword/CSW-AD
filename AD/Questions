@@ -1,3 +1,6 @@
+Write a program to shift array by k position by left or right. Input k and direction
+Write a program to rotate an 2d array by 90 degree
+Write a program to reverse a string
 Given an undirected graph print BFS traversal of the graph from the given source
 Given an undirected and disconnected graph and a given source vertex print BFS of the graph
 Print the number of connected components ,present in a graph using BFS or Find the number of islands in a graph

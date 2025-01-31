@@ -1,4 +1,4 @@
-package assignment1;
+package sample_questions;
 class College{
 	String collegeName;
 	String collegeLoc;

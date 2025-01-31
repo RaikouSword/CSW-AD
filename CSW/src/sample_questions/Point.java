@@ -1,4 +1,4 @@
-package assignment1;
+package sample_questions;
 
 public class Point {
 	int x,y;
