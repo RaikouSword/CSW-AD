@@ -1,4 +1,5 @@
-package sample_questions;
+//Q6
+package ass1;
 class College{
 	String collegeName;
 	String collegeLoc;
@@ -20,7 +21,7 @@ class Student{
 		System.out.println("College location: "+c.collegeLoc);
 	}
 }
-public class Mainq5 {
+public class MainApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

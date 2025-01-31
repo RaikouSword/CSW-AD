@@ -1,4 +1,5 @@
-package sample_questions;
+//Q1
+package ass1;
 class Car{
 	String make;
 	String model;

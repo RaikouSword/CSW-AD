@@ -1,4 +1,5 @@
-package sample_questions;
+//Q3
+package ass1;
 
 public class Point {
 	int x,y;

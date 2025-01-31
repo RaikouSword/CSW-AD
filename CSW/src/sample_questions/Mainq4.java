@@ -1,3 +1,4 @@
+
 package sample_questions;
 class Laptop {
 	String model;

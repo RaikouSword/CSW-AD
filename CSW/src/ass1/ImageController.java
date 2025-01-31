@@ -1,5 +1,27 @@
-package sample_questions;
+//Q5
+package ass1;
 import java.util.*;
+class ImageLibrary {
+	List<Image> images;
+	public ImageLibrary() {
+		this.images = new ArrayList<>();
+	}
+	public void insertImage(Image img) {
+		images.add(img);
+	}
+	public List<Image> searchImage(String color){
+		List<Image> res = new ArrayList<>();
+		for(Image img: images) {
+			if(img.getColorCode().equalsIgnoreCase(color)) {
+				res.add(img);
+			}
+		}
+		return res;
+	}
+	public List<Image> getImage(){
+		return images;
+	}
+}
 public class ImageController {
 	public static void main(String[] args) {
 		Image img1 = new Image(100,200,"Red");

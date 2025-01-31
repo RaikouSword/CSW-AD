@@ -1,4 +1,5 @@
-package sample_questions;
+//Q4
+package ass1;
 public class Image{
 	int imageWidth;
 	int imageHeight;
@@ -35,4 +36,11 @@ public class Image{
 	public void setColorCode(String colorCode) {
 		this.colorCode = colorCode;
 	}
+	 public static void main(String[] args) {
+	        Image defaultImage = new Image();
+	        Image parameterizedImage = new Image(1920, 1080, "#FF5733");
+
+	        System.out.println("Default Image Details: " + defaultImage);
+	        System.out.println("Parameterized Image Details: " + parameterizedImage);
+	    }
 }

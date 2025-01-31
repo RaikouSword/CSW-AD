@@ -1,4 +1,5 @@
-package sample_questions;
+//Q2
+package ass1;
 
 public class Rectangle {
 	int len,wid;
