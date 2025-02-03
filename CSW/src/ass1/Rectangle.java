@@ -31,7 +31,7 @@ public class Rectangle {
 		Rectangle r = new Rectangle(0,0);
 		r.setlen(10);
 		r.setwid(10);
-		System.out.println("Length is set to be: "+r.getlen()+ "/nWidth is set to be: "+r.getwid());
+		System.out.println("Length is set to be: "+r.getlen()+ "\nWidth is set to be: "+r.getwid());
 		System.out.println("Area: "+r.area());
 		System.out.println("Perimeter: "+r.perimeter());
 	}
