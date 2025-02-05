@@ -1,4 +1,5 @@
 //Q6
+
 package ass1;
 class College{
 	String collegeName;
