@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class q2 {
 
     public static void rotate(int[][] matrix) {
@@ -23,11 +25,20 @@ public class q2 {
     }
 
     public static void main(String[] args) {
-        int[][] matrix = {
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
-        };
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the size of the matrix (n x n): ");
+        int n = scanner.nextInt();
+
+        int[][] matrix = new int[n][n];
+
+        System.out.println("Enter the elements of the matrix:");
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                matrix[i][j] = scanner.nextInt();
+            }
+        }
 
         System.out.println("Original Matrix:");
         printMatrix(matrix);
