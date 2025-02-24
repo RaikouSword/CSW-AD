@@ -1,0 +1,65 @@
+Collection is a framework that provides an architecture to store and manipulate .
+
+Mainly divided into 3 types;
+i.Ordered list - used for maintaining the objects in specific order
+ii.Map - allow searching for information using an reference key to retrieve the value of a specific object
+iii.Set - unordered collection where duplicates objects are not allowed
+
+collection -  It refers to any data structures where object are stored and iterated over .
+Collection- It refers to the java.util.Collection .This is extended by list , set , queue , etc.
+Collections - It refers to a class (not an interface) from java.util package . It contains utility methods for working with collections such as sort ,emptyList ,emptySet ,emptyMap, addAll, etc.
+			  
+			  
+	
+	
+	
+			  
+MAP:
+It contains a key,value pair . Also known as entry. It doesn't allow duplicate keys but allows duplicate values.
+eg, hashmap , hashtable, linked hash map, tree map.
+
+i.Hashmap - allows one null key and multiple null values. eg, put(), getKey(),getValue() ,clear() ,remove() ,clone() , entrySet()
+ii.HashTable - similar to hashmap but synchronized . Thread safe(multiple threads can access hashtable concurrently without any additional synchronized needed. It doesn't allow null key values.Doesn't allow null values and null keys.
+iii. Tree map - key,value pair but in sorted order of key .no null key allowed but multiple null values are allowed.
+iv. Linked hashmap - it maintains insertion order . Slower performance .
+
+
+
+
+SET: 
+i.Hashset - Doesn't allow duplicates . Doesn't maintain insertion order , allow null value.
+ii. Linked hashset -  Maintains insertion order. Similar to hash set.
+iii.Treeset - Elements are stored in sorted order , doesn't allow null values. Slower than hashset.
+
+
+
+
+
+LIST:
+Method name - IndexOf(), remove(), get(), contains(), set(), at().
+
+
+
+
+
+
+
+
+
+
+ArrayList:
+It can contains duplicate elements . Dynamic Array. Maintains insertion order . 
+ArrayList increments 50% of current array size if the no of elements exceeds the capacity.
+It uses iterator interface to traverse.
+
+
+Vector:
+Dynamic array which can grow or sink in size . It synchronizes each individual operation .
+It increments 100% of current array size if the no of elements exceeds the capacity.
+It use iterator or enumeration interface to traverse.
+It implements queue interface , doesn't allow null values , retrieve in sorted order , it doesn't allow objects to be created that cannot be compared with each other.
+
+
+
+
+
