@@ -63,3 +63,13 @@ It implements queue interface , doesn't allow null values , retrieve in sorted o
 
 
 
+
+
+
+
+
+
+Garbage Collector:
+Memory management in Java performs allocating memory to objects and variables during program execution.
+Java's garbage automatically recreates memory allocated to objects those are use to 
+In java memory management involves three gen old , young and permanent gen
