@@ -36,4 +36,3 @@ public class q6 {
                 "Used Memory: " + usedMemory / (1024 * 1024) + " MB");
     }
 }
-
