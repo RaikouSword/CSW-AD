@@ -24,3 +24,5 @@ Assuming all the char in pattern are distinct.
 2.Write an improved version of the above algorithm if all the chars in the pattern are distinct
 
  
+//LAB5
+1.Write a program to implement robin karp algorithm where T is the pattern P of len m.
