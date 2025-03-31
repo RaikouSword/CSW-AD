@@ -13,5 +13,6 @@ public class q9 {
             w.write(new Date() + "\n" + entry);
             System.out.println("Diary saved.");
         }
+        
     }
 }
