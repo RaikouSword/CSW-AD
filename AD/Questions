@@ -26,3 +26,14 @@ Assuming all the char in pattern are distinct.
  
 //LAB5
 1.Write a program to implement robin karp algorithm where T is the pattern P of len m.
+
+
+//LAB6
+1. Implement fractional knapsack algorithm using JAVA. it states that given a set of items holding weights and profit value , determine the subsets of items to include in a knapsack such that the total weight most not exceed the limit the of the knapsack and the total profit is maximum.
+
+
+//LAB9
+1. Implement weighted interval scheduling using DP
+2. Coin exchange problem:
+    a) Count the number the ways to make the sum.
+    b) Find the minimum number of coins required to make the sum.
